@@ -1,0 +1,17 @@
+$ cd Documents
+$ cd Lab
+$ git init
+$ git add --all
+$ git remote add origin https://github.com/endritibra7/Si_161187_Lab1.git
+$ git status
+$ git commit -m "Initial commit"
+$ git push -u origin master
+$ git branch bugFix1
+$ git branch bugFix2
+$ git checkout bugFix1
+$ git add --all
+$ git commit -m "“printMyName implemented"
+$ git status$ git push --all
+$ git checkout bugFix2
+$ git commit -m "printMyIndex implemented"
+$ git push --all
